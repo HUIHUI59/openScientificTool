@@ -26,6 +26,7 @@
 | 工具 | 一句话干什么 | 目录 |
 |---|---|---|
 | **PaperTidy** | 把下载的乱名论文 PDF 批量改名成「作者_年份_标题.pdf」 | [`./PaperTidy`](./PaperTidy) |
+| **RefStyle** | 一个 `.bib` 一键排成 APA / MLA / Chicago / 国标 GB/T 7714 四种参考文献格式 | [`./RefStyle`](./RefStyle) |
 | 更多工具陆续加入 🚧 | —— | —— |
 
 ## 仓库结构
@@ -38,6 +39,11 @@ openScientificTool/
 ├── LICENSE              # Apache-2.0 许可证
 │
 ├── PaperTidy/           # 工具① · 论文 PDF 批量规范改名
+│   ├── README.md        #   ← 这个工具怎么用,看这里
+│   ├── requirements.txt #   依赖清单
+│   └── <源码>           #   源代码
+│
+├── RefStyle/            # 工具② · 参考文献一键多格式(APA/MLA/Chicago/国标)
 │   ├── README.md        #   ← 这个工具怎么用,看这里
 │   ├── requirements.txt #   依赖清单
 │   └── <源码>           #   源代码
