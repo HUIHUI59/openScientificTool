@@ -15,7 +15,7 @@
 
 ## 来小红书一起学习 👋
 
-我在小红书叫 **挥挥挥挥挥**,主要分享 **AI 科研工具怎么用** + **前沿 AI 消息**。视角是社科硕博的真实科研场景——问卷、量表、回归、访谈、文献综述,而不是炼丹和写 CUDA。
+我在小红书叫 **挥挥挥挥挥**,主要分享 **AI 科研工具怎么用** + **前沿 AI 消息**。视角是社科硕博的真实科研场景——问卷、量表、回归、访谈、文献管理,而不是炼丹和写 CUDA。
 
 > 📕 小红书主页:https://xhslink.com/m/92MwVP7PzPc
 
@@ -26,8 +26,16 @@
 | 工具 | 一句话干什么 | 目录 |
 |---|---|---|
 | **PaperTidy** | 把下载的乱名论文 PDF 批量改名成「作者_年份_标题.pdf」 | [`./PaperTidy`](./PaperTidy) |
-| **RefStyle** | 一个 `.bib` 一键排成 APA / MLA / Chicago / 国标 GB/T 7714 四种参考文献格式 | [`./RefStyle`](./RefStyle) |
+| **RefStyle** | 一个 `.bib` 直接排成 APA / MLA / Chicago / 国标 GB/T 7714 四种参考文献格式 | [`./RefStyle`](./RefStyle) |
 | 更多工具陆续加入 🚧 | —— | —— |
+
+## Skill 清单
+
+Skill 不是软件,是给 AI 的一份「带规矩的说明书」——有 Claude Code / Codex 等 agent 的,把目录复制进它的 skills 目录即装;没有 agent 的,把 SKILL.md 全文粘贴给任意网页 AI 也能用。
+
+| Skill | 一句话干什么 | 目录 |
+|---|---|---|
+| **slide-polish** | 把汇报 PPT 的版式交给 AI 重排,内容一个字不动 | [`./skills/slide-polish`](./skills/slide-polish) |
 
 ## 仓库结构
 
@@ -43,7 +51,7 @@ openScientificTool/
 │   ├── requirements.txt #   依赖清单
 │   └── <源码>           #   源代码
 │
-├── RefStyle/            # 工具② · 参考文献一键多格式(APA/MLA/Chicago/国标)
+├── RefStyle/            # 工具② · 参考文献多格式排版(APA/MLA/Chicago/国标)
 │   ├── README.md        #   ← 这个工具怎么用,看这里
 │   ├── requirements.txt #   依赖清单
 │   └── <源码>           #   源代码
