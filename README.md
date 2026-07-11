@@ -27,6 +27,7 @@
 |---|---|---|
 | **PaperTidy** | 把下载的乱名论文 PDF 批量改名成「作者_年份_标题.pdf」 | [`./PaperTidy`](./PaperTidy) |
 | **RefStyle** | 一个 `.bib` 直接排成 APA / MLA / Chicago / 国标 GB/T 7714 四种参考文献格式 | [`./RefStyle`](./RefStyle) |
+| **Paper2MD** | 把 PDF 论文转成规整的 Markdown(标题层级/段落/表格/可选图片),双击即用不装 Python | [`./Paper2MD`](./Paper2MD) |
 | 更多工具陆续加入 🚧 | —— | —— |
 
 ## Skill 清单
