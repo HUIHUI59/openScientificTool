@@ -28,6 +28,7 @@
 | **PaperTidy** | 把下载的乱名论文 PDF 批量改名成「作者_年份_标题.pdf」 | [`./PaperTidy`](./PaperTidy) |
 | **RefStyle** | 一个 `.bib` 直接排成 APA / MLA / Chicago / 国标 GB/T 7714 四种参考文献格式 | [`./RefStyle`](./RefStyle) |
 | **Paper2MD** | 把 PDF 论文转成规整的 Markdown(标题层级/段落/表格/可选图片),双击即用不装 Python | [`./Paper2MD`](./Paper2MD) |
+| **CiteCheck** | 参考文献逐条过 CrossRef 官方数据库核 DOI 真伪,揪出 AI 编造的假文献(只体检不代找) | [`./CiteCheck`](./CiteCheck) |
 | 更多工具陆续加入 🚧 | —— | —— |
 
 ## Skill 清单
@@ -37,6 +38,7 @@ Skill 不是软件,是给 AI 的一份「带规矩的说明书」——有 Claud
 | Skill | 一句话干什么 | 目录 |
 |---|---|---|
 | **slide-polish** | 把汇报 PPT 的版式交给 AI 重排,内容一个字不动 | [`./skills/slide-polish`](./skills/slide-polish) |
+| **cite-check** | 参考文献整段粘给 AI,逐条过 CrossRef 核 DOI 真伪,只出体检报告和修复建议 | [`./skills/cite-check`](./skills/cite-check) |
 
 ## 仓库结构
 
