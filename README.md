@@ -38,6 +38,7 @@ Skill 不是软件,是给 AI 的一份「带规矩的说明书」——有 Claud
 
 | Skill | 一句话干什么 | 目录 |
 |---|---|---|
+| **paper2md** | 把 PDF 论文整段交给 AI 转成规整 Markdown(标题层级/段落/表格),只转格式不总结改写 | [`./skills/paper2md`](./skills/paper2md) |
 | **slide-polish** | 把汇报 PPT 的版式交给 AI 重排,内容一个字不动 | [`./skills/slide-polish`](./skills/slide-polish) |
 | **cite-check** | 参考文献整段粘给 AI,逐条过 CrossRef 核 DOI 真伪,只出体检报告和修复建议 | [`./skills/cite-check`](./skills/cite-check) |
 | **blind-check** | 送审稿整段/文件交给 AI,扫出六类会暴露身份的位置,只出泄露清单,改稿自己动手 | [`./skills/blind-check`](./skills/blind-check) |
