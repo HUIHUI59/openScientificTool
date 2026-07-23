@@ -43,6 +43,7 @@ Skill 不是软件,是给 AI 的一份「带规矩的说明书」——有 Claud
 | **cite-check** | 参考文献整段粘给 AI,逐条过 CrossRef 核 DOI 真伪,只出体检报告和修复建议 | [`./skills/cite-check`](./skills/cite-check) |
 | **blind-check** | 送审稿整段/文件交给 AI,扫出六类会暴露身份的位置,只出泄露清单,改稿自己动手 | [`./skills/blind-check`](./skills/blind-check) |
 | **paper-digest** | 把一篇文献拆成结构化要点卡帮你读懂,只做阅读辅助,不产出任何可提交文本 | [`./skills/paper-digest`](./skills/paper-digest) |
+| **review-decoder** | 把整封审稿/大修意见拆成原子化待办任务(数据/方法/写作/补充四类+优先级),只拆解不代写、不生成任何可直接提交的回复文字 | [`./skills/review-decoder`](./skills/review-decoder) |
 
 ## 仓库结构
 
